@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Programación Web</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/ef88cf4afb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo&family=Barlow:wght@700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@1,700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="nav navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="/assets/img/education_programming_logo (1).svg"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-a active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-a" href="./modulos.html">Módulos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-a" href="./profesores.html">Profesores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-a" href="./inscripcion.html">Inscripción</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <section class="cards profs">
+            <h2 class="cards__title">Nuestros <span>Profesores</span></h2>
+
+            <div class="cards__grid">
+                <!-- Prof 1 -->
+                <article class="card">
+                    <figure class="card__media">
+                        <img src="https://imgs.search.brave.com/Ws-sE22aJTsqEkYcTYnLrKuOVkXUVGtg7LAEJKpzxNU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iZWVo/aWl2LWltYWdlcy1w/cm9kdWN0aW9uLnMz/LmFtYXpvbmF3cy5j/b20vdXBsb2Fkcy91/c2VyL3Byb2ZpbGVf/cGljdHVyZS82NmQy/NDM5YS01NjFmLTRh/OGQtYmE5NC1hMDVl/ZGEwYzZiM2MvYXZh/dGFyXzEwMDAuanBn"
+                            alt="Brais Moure">
+                    </figure>
+                    <div class="card__body">
+                        <h3>Brais Moure</h3>
+                        <span class="badge">Frontend</span>
+                        <p>Especialista en HTML, CSS y accesibilidad. 10+ años formando equipos.</p>
+                    </div>
+                </article>
+
+                <!-- Prof 2 -->
+                <article class="card">
+                    <figure class="card__media">
+                        <img src="https://imgs.search.brave.com/F9S-A4IisPDUr7TjU8Ifd3l4Q5Fdeg6VqOIQVHVcdXw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hdmF0/YXJzMC5naXRodWJ1/c2VyY29udGVudC5j/b20vdS8xNTYxOTU1"
+                            alt="Miguel Ángel Durán García">
+                    </figure>
+                    <div class="card__body">
+                        <h3>Miguel Ángel Durán García</h3>
+                        <span class="badge">JavaScript</span>
+                        <p>JavaScript práctico: DOM, APIs y buenas prácticas para proyectos reales.</p>
+                    </div>
+                </article>
+
+                <!-- Prof 3 -->
+                <article class="card">
+                    <figure class="card__media">
+                        <img src="https://imgs.search.brave.com/ZO6k0vOZkPb_sKceg-OSvF8Du5qrNPFM4HJP2suB0TE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/MjBlNWVhMGNiZmRj/OTUyMWVhYWMxNTIv/NjVlYjNkNjRhNGQy/MTYyNDA2N2I2NjYy/XzYzNDU4ZTIzYWM5/YjBkZjY5NDdlOWZi/ZV9JTUdfNjYzNi5q/cGc"
+                            alt="Jan Mraz">
+                    </figure>
+                    <div class="card__body">
+                        <h3>Jan Mraz</h3>
+                        <span class="badge">UX/UI</span>
+                        <p>Diseño centrado en personas, prototipado y handoff a desarrollo.</p>
+                    </div>
+                </article>
+
+                <!-- Prof 4 -->
+                <article class="card">
+                    <figure class="card__media">
+                        <img src="https://todocodeacademy.com/wp-content/uploads/2023/04/luisinadepaula.jpeg"
+                            alt="Luisina De Paula">
+                    </figure>
+                    <div class="card__body">
+                        <h3>Luisina De Paula</h3>
+                        <span class="badge">Backend</span>
+                        <p>Node, REST y bases de datos. Arquitecturas simples y mantenibles.</p>
+                    </div>
+                </article>
+
+                <!-- Prof 5 -->
+                <article class="card">
+                    <figure class="card__media">
+                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFRShdNohR5vQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713806596482?e=2147483647&v=beta&t=Dv4HeUq9Bf5_35VgOuzdLHIN73fEoEwYzLu7ede9quA"
+                            alt="Javier Skodnik">
+                    </figure>
+                    <div class="card__body">
+                        <h3>Javier Skodnik</h3>
+                        <span class="badge">QA / Testing</span>
+                        <p>Fundamentos de testing, casos de prueba y automatización inicial.</p>
+                    </div>
+                </article>
+
+                <!-- Prof 6 -->
+                <article class="card">
+                    <figure class="card__media">
+                        <img src="https://pbs.twimg.com/profile_images/1635046649994047488/T2G-7CB7_400x400.jpg"
+                            alt="Rita Codes">
+                    </figure>
+                    <div class="card__body">
+                        <h3>Rita Codes</h3>
+                        <span class="badge">Datos</span>
+                        <p>Python para datos, visualización y primeros pasos en análisis.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Col 1: Marca + redes -->
+            <section class="footer-brand">
+                <a class="brand" href="/" aria-label="Inicio CodeLearn Social">
+                    <img src="/assets/img/education_programming_logo.svg" alt=""><span
+                        class="brand-text">CodeLearn</span>
+                </a>
+
+                <ul class="social" aria-label="Redes sociales">
+                    <li><a class="icon-btn" href="#" aria-label="Facebook" class="icon-btn">
+                            <!-- FB -->
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M22 12.06C22 6.49 17.52 2 11.94 2S2 6.49 2 12.06c0 5.02 3.66 9.19 8.44 9.98v-7.06H8.4v-2.92h2.04V9.84c0-2.02 1.2-3.14 3.04-3.14.88 0 1.8.16 1.8.16v1.98h-1.02c-1 0-1.31.62-1.31 1.26v1.51h2.23l-.36 2.92h-1.87v7.06C18.34 21.25 22 17.08 22 12.06z" />
+                            </svg>
+                        </a></li>
+                    <li><a class="icon-btn" href="#" aria-label="Instagram" class="icon-btn">
+                            <!-- IG -->
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.51 5.51 0 0 1 12 7.5zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5zm5.25-2.75a1.25 1.25 0 1 0 1.25 1.25 1.25 1.25 0 0 0-1.25-1.25z" />
+                            </svg>
+                        </a></li>
+                    <li><a class="icon-btn" href="#" aria-label="X">
+                            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
+                                <!-- X (Twitter) -->
+                                <path
+                                    d="M18.9 2H22l-7.24 8.28L23.5 22h-4.6l-6.05-7.2L6 22H2.1l7.7-8.8L.5 2h4.6l5.5 6.55L18.9 2z" />
+                            </svg>
+                        </a></li>
+                    <li><a class="icon-btn" href="#" aria-label="YouTube" class="icon-btn">
+                            <!-- YouTube -->
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M23 12s0-3.5-.45-5.1a3 3 0 0 0-2.1-2.1C18.85 4.3 12 4.3 12 4.3s-6.85 0-8.45.5a3 3 0 0 0-2.1 2.1C1 8.5 1 12 1 12s0 3.5.45 5.1a3 3 0 0 0 2.1 2.1c1.6.5 8.45.5 8.45.5s6.85 0 8.45-.5a3 3 0 0 0 2.1-2.1C23 15.5 23 12 23 12zM9.75 15.5v-7l6 3.5-6 3.5z" />
+                            </svg>
+                        </a></li>
+                </ul>
+
+                <p class="copyright">© 2025 Creado por Matias Quintana</p>
+            </section>
+
+            <!-- Col 2: Contacto -->
+            <section class="footer-col">
+                <h3>Contacto</h3>
+                <ul class="list">
+                    <li><a href="mailto:info@social.vr">info@codelearn.com</a></li>
+                    <li><a href="tel:+5491161426449">+54 9 116142-6449</a></li>
+                    <li>Coronel Arena 3053,<br>Castelar,<br>PBA, Argentina</li>
+                </ul>
+            </section>
+
+            <!-- Col 3: Mapa del sitio -->
+            <nav class="footer-col" aria-label="Mapa del sitio">
+                <h3>Mapa del sitio</h3>
+                <ul class="list">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./modulos.html">Modulos</a></li>
+                    <li><a href="./profesores.html">Profesores</a></li>
+                    <li><a href="./inscripcion.html">Inscripcion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

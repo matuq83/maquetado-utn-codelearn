@@ -1,0 +1,32 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="800" height="450" rx="20" fill="url(#bg2)"/>
+  
+  <!-- Elemento decorativo -->
+  <circle cx="750" cy="400" r="50" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Símbolo de código -->
+  <text x="100" y="400" font-family="monospace" font-size="120" fill="rgba(255,255,255,0.1)" transform="rotate(-15 100 400)">{ }</text>
+  
+  <!-- Texto principal -->
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">
+    No temas a los 
+  </text>
+  
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle">
+    <tspan fill="#10b981">errores</tspan>
+    <tspan fill="white">, son tus mejores maestros</tspan>
+  </text>
+  
+  <!-- Subtítulo -->
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.9)" text-anchor="middle" letter-spacing="1px">
+    Cada bug resuelto te hace más fuerte
+  </text>
+</svg>
