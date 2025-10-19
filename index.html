@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Programación Web</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/ef88cf4afb.js" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
     <header>
         <nav class="nav navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="/assets/img/education_programming_logo (1).svg"
+                <a class="navbar-brand" href="#"><img class="logo" src="./assets/img/education_programming_logo (1).svg"
                         alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -34,13 +34,13 @@
                             <a class="nav-a active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-a" href="./modulos.html">Módulos</a>
+                            <a class="nav-a" href="./html/modulos.html">Módulos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-a" href="./profesores.html">Profesores</a>
+                            <a class="nav-a" href="./html/profesores.html">Profesores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-a" href="./inscripcion.html">Inscripción</a>
+                            <a class="nav-a" href="./html/inscripcion.html">Inscripción</a>
                         </li>
                     </ul>
                 </div>
@@ -64,42 +64,42 @@
             <div class="hero-text">
                 <h2>Aprendé a programar</h2>
                 <p>HTML, CSS y JavaScript desde cero</p>
-                <button><a class="btn-cta" href="./inscripcion.html">Comenzá ahora</a></button>
+                <button><a class="btn-cta" href="/html/modulos.html">Comenzá ahora</a></button>
             </div>
         </div>
         <!-- Carrusel -->
-         <div class="carousel-container">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+        <div class="carousel-container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/assets/img/slide1_motivacional.svg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img/slide2_motivacional.svg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img/slide3_motivacional.svg" class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/assets/img/slide1_motivacional.svg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                    <img src="/assets/img/slide2_motivacional.svg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                    <img src="/assets/img/slide3_motivacional.svg" class="d-block w-100" alt="..." />
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
         </div>
         <!-- Features -->
         <section class="features">
@@ -130,32 +130,33 @@
             <!-- Col 1: Marca + redes -->
             <section class="footer-brand">
                 <a class="brand" href="/" aria-label="Inicio CodeLearn Social">
-                    <img src="/assets/img/education_programming_logo.svg" alt=""><span class="brand-text">CodeLearn</span>
+                    <img src="/assets/img/education_programming_logo.svg" alt=""><span
+                        class="brand-text">CodeLearn</span>
                 </a>
-    
+
                 <ul class="social" aria-label="Redes sociales">
-                    <li><a class="icon-btn" href="#" aria-label="Facebook" class="icon-btn">
+                    <li><a class="icon-btn" href="https://www.facebook.com/" aria-label="Facebook" class="icon-btn">
                             <!-- FB -->
                             <svg viewBox="0 0 24 24" aria-hidden="true">
                                 <path
                                     d="M22 12.06C22 6.49 17.52 2 11.94 2S2 6.49 2 12.06c0 5.02 3.66 9.19 8.44 9.98v-7.06H8.4v-2.92h2.04V9.84c0-2.02 1.2-3.14 3.04-3.14.88 0 1.8.16 1.8.16v1.98h-1.02c-1 0-1.31.62-1.31 1.26v1.51h2.23l-.36 2.92h-1.87v7.06C18.34 21.25 22 17.08 22 12.06z" />
                             </svg>
                         </a></li>
-                    <li><a class="icon-btn" href="#" aria-label="Instagram" class="icon-btn">
+                    <li><a class="icon-btn" href="https://www.instagram.com/" aria-label="Instagram" class="icon-btn">
                             <!-- IG -->
                             <svg viewBox="0 0 24 24" aria-hidden="true">
                                 <path
                                     d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.51 5.51 0 0 1 12 7.5zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5zm5.25-2.75a1.25 1.25 0 1 0 1.25 1.25 1.25 1.25 0 0 0-1.25-1.25z" />
                             </svg>
                         </a></li>
-                    <li><a class="icon-btn" href="#" aria-label="X">
+                    <li><a class="icon-btn" href="https://x.com/" aria-label="X">
                             <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
                                 <!-- X (Twitter) -->
                                 <path
                                     d="M18.9 2H22l-7.24 8.28L23.5 22h-4.6l-6.05-7.2L6 22H2.1l7.7-8.8L.5 2h4.6l5.5 6.55L18.9 2z" />
                             </svg>
                         </a></li>
-                    <li><a class="icon-btn" href="#" aria-label="YouTube" class="icon-btn">
+                    <li><a class="icon-btn" href="https://www.youtube.com/" aria-label="YouTube" class="icon-btn">
                             <!-- YouTube -->
                             <svg viewBox="0 0 24 24" aria-hidden="true">
                                 <path
@@ -163,28 +164,28 @@
                             </svg>
                         </a></li>
                 </ul>
-    
+
                 <p class="copyright">© 2025 Creado por Matias Quintana</p>
             </section>
-    
+
             <!-- Col 2: Contacto -->
             <section class="footer-col">
                 <h3>Contacto</h3>
                 <ul class="list">
                     <li><a href="mailto:info@social.vr">info@codelearn.com</a></li>
-                    <li><a href="tel:+5491161426449">+54 9 116142-6449</a></li>
+                    <li><a href="https://wa.me/5491161426449?text=Hola%20Matias%2C%20quiero%20consultar%20sobre%20los%20cursos" target="_blank" rel="noopener noreferrer" aria-label="Enviar mensaje por WhatsApp al +54 9 1161426449">+54 9 116142-6449</a></li>
                     <li>Coronel Arena 3053,<br>Castelar,<br>PBA, Argentina</li>
                 </ul>
             </section>
-    
+
             <!-- Col 3: Mapa del sitio -->
             <nav class="footer-col" aria-label="Mapa del sitio">
                 <h3>Mapa del sitio</h3>
                 <ul class="list">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./modulos.html">Modulos</a></li>
-                    <li><a href="./profesores.html">Profesores</a></li>
-                    <li><a href="./inscripcion.html">Inscripcion</a></li>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/html/modulos.html">Modulos</a></li>
+                    <li><a href="/html/profesores.html">Profesores</a></li>
+                    <li><a href="/html/inscripcion.html">Inscripcion</a></li>
                 </ul>
             </nav>
         </div>
